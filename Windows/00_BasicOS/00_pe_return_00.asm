@@ -8,7 +8,7 @@ include 'win64a.inc'
 
 section '.code' code readable executable 
 start: 
-
+  sub rsp, 8
   mov eax, 42
 
   exit:
